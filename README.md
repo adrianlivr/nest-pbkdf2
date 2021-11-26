@@ -75,5 +75,6 @@ export class YourService{
 ...
 ```
 
-# _If you want hash and compare passwords with security, use argon2 with the 2id version_
+##### _If you want hash and compare passwords with security, use argon2 with the 2id version_
+
 ### Use Asynchronous methods for better performance
