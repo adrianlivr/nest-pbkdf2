@@ -1,7 +1,7 @@
 import { Inject, Injectable } from '@nestjs/common';
 import * as crypto from 'crypto';
 import { PBKDF2_OPTIONS } from './constants';
-import { Pbkdf2ModuleOptions } from './pbkdf2.interfaces';
+import { Pbkdf2ModuleOptions } from './pbkdf2.interface';
 
 @Injectable()
 export class Pbkdf2Service {

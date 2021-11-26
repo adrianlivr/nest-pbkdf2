@@ -3,7 +3,7 @@ import { PBKDF2_OPTIONS } from './constants';
 import {
   Pbkdf2ModuleAsyncOptions,
   Pbkdf2ModuleOptions,
-} from './pbkdf2.interfaces';
+} from './pbkdf2.interface';
 import { Pbkdf2Service } from './pbkdf2.service';
 
 @Global()

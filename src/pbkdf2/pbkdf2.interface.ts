@@ -1,12 +1,12 @@
 import { ModuleMetadata, Type } from '@nestjs/common';
 
-export type Pbkdf2ModuleOptions = {
+export interface Pbkdf2ModuleOptions {
   digest?: string;
   hashBytes?: number;
   saltBytes?: number;
   iterations?: number;
   encoding?: BufferEncoding;
-};
+}
 
 export interface Pbkdf2ModuleOptionsFactory {
   createPbkdf2ModuleOptions():
